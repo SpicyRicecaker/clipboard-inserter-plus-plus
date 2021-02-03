@@ -2,7 +2,9 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c",
+    "build": "pnpm build-svelte && pnpm build-web-ext",
+    "build-web-ext": "web-ext build --overwrite-dest",
+    "build-svelte": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
     "validate": "svelte-check"
@@ -22,7 +24,8 @@
     "svelte-check": "^1.0.0",
     "svelte-preprocess": "^4.0.0",
     "tslib": "^2.0.0",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "web-ext": "^5.5.0"
   },
   "dependencies": {
     "sirv-cli": "^1.0.0"
