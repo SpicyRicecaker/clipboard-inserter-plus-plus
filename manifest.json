@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Clipboard Inserter++",
+  "version": "1.0",
+
+  "description": "Automatically inserts text from the clipboard into a page, but with nice features such as autoscroll and styling",
+  "homepage_url": "https://github.com/SpicyRicecaker",
+  "icons": {
+    "48": "public/favicon.png"
+  },
+  "browser_action": {
+    "default_title": "Clipboard",
+    "default_icon": "public/favicon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": ["clipboardRead"]
+}
