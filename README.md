@@ -28,6 +28,6 @@ pnpm build
 
 When activated, this extension opens a new page and listens to clipboard changes, displaying them in a tab. The page itself has some nice features like autoscroll and styling, with more to come in the future!
 
-## Not Good
+## Yomichan Compatability
 
-Turns out Yomichan, or all extensions for that matter, can't access pages generated created by other extensions. RIP. Also, Yomichan has a built in clipboard inserter too. RIP. F.
+Yomichan, or all extensions for that matter, can't access pages generated created by other extensions. Also, Yomichan has a built in clipboard inserter. 
